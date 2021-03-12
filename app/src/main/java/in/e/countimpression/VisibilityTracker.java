@@ -107,7 +107,7 @@ public class VisibilityTracker {
     class VisibilityRunnable implements Runnable {
         private final List<View> mVisibleViews;
         private final List<View> mInvisibleViews;
-        private VisibilityChecker mVisibilityChecker;
+//        private VisibilityChecker mVisibilityChecker;
 
         VisibilityRunnable() {
             mVisibleViews = new ArrayList<>();
