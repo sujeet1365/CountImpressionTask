@@ -34,6 +34,7 @@ public class ImpressionAdapter extends RecyclerView.Adapter<ProductViewHolder> {
         for (View v : visibleViews) {
             Integer viewPosition = mViewPositionMap.get(v);
             String viewTitle = mDataSet.get(viewPosition);
+            //Here we'll get the count and can send over server
             Log.d(ImpressionAdapter.class.getSimpleName(), viewTitle);
         }
 
